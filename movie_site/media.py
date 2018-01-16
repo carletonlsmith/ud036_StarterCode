@@ -2,7 +2,7 @@
 import webbrowser # import webbrowser module to launch youtube
 
 class Movie(object): # create class for Movie instances
-'''A class for containing movie data'''
+    '''A class for containing movie data'''
 
     def __init__(self,movie_title,movie_storyline,
                     poster_image,trailer_youtube): # constructor for Movie
