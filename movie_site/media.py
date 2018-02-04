@@ -5,7 +5,7 @@ class Movie(object):  # create class for Movie instances
     '''A class for containing movie data'''
 
     def __init__(self, movie_title, movie_storyline,
-                    poster_image, trailer_youtube):  # constructor for Movie
+                 poster_image, trailer_youtube):  # constructor for Movie
         self.title = movie_title  # movie attribute
         self.storyline = movie_storyline  # movie attribute
         self.poster_image_url = poster_image  # movie attribute
